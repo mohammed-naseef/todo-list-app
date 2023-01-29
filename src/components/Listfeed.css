@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    padding: 30px 20px 100px 20px;
+    overflow-y: scroll;
+} 
+
+.list-container {
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}

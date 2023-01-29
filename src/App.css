@@ -1,0 +1,16 @@
+.main-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: #8227ff;
+
+}
+
+.lists-heading {
+    padding: 20px;
+    color: #fff;
+    font-size: 30px;
+    width: 400px;
+}
