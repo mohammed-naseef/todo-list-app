@@ -11,7 +11,6 @@ const Header = ({ setIsEditMode, setIsEditorOpen }) => {
     <>
       <header className="header">
         <h1>TODO</h1>
-        <h1>Lists that you posted appear here...</h1>
         <button className="create-button" onClick={openEditor}>
           New list +
         </button>
