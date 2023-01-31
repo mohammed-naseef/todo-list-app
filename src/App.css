@@ -8,9 +8,8 @@
 
 }
 
-.lists-heading {
-    padding: 20px;
-    color: #fff;
-    font-size: 30px;
-    width: 400px;
+@media screen and (max-width: 600px) {
+    .main-body {
+        background: #d86900;
+    }
 }

@@ -1,13 +1,12 @@
 .container {
-    position: relative;
-    padding: 30px 20px 100px 20px;
-    overflow-y: scroll;
-} 
+  position: relative;
+  overflow-y: scroll;
+}
 
-.list-container {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 320px);
-    gap: 20px;
-    justify-content: center;
+.lists {
+  position: relative;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  gap: 20px;
 }

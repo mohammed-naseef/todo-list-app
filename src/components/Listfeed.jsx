@@ -35,18 +35,18 @@ const Listfeed = (props) => {
 
   return (
     <div className="container">
-      <ul className="list-container">
-        {lists.map((list, i) => {
-          return (
-            <List
-              handleEditList={handleEditList}
-              removeList={removeList}
-              item={list}
-              index={i}
-            />
-          );
-        })}
-      </ul>
+        <ul className="lists">
+          {lists.map((list, i) => {
+            return (
+              <List
+                handleEditList={handleEditList}
+                removeList={removeList}
+                item={list}
+                index={i}
+              />
+            );
+          })}
+        </ul>
     </div>
   );
 };
