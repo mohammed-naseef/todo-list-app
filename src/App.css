@@ -7,9 +7,3 @@
     background: #8227ff;
 
 }
-
-@media screen and (max-width: 600px) {
-    .main-body {
-        background: #d86900;
-    }
-}

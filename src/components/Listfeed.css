@@ -1,6 +1,7 @@
 .container {
   position: relative;
   overflow-y: scroll;
+  padding-left: 30px;
 }
 
 .lists {
@@ -9,4 +10,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
   gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 0;
+  }
+  .lists {
+    justify-content: center;
+  }
 }
